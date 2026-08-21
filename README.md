@@ -101,7 +101,7 @@ npm run dev
 
 | Role | Email | Password | Transaction PIN |
 | :--- | :--- | :--- | :--- |
-| **Customer** | `john@bank.com` | `Password123!` | `1234` |
+| **Customer** | `shanawazh203@gmail.com` | `Password123!` | `1234` |
 | **Admin** | `admin@bank.com` | `AdminPass123!` | `1234` |
 
 ---

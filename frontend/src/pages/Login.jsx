@@ -95,7 +95,7 @@ export default function Login({ onSwitchToRegister }) {
               type="button" 
               className="btn btn-secondary" 
               style={{ fontSize: '0.78rem', padding: '8px 10px' }}
-              onClick={() => handleQuickDemo('john@bank.com', 'Password123!')}
+              onClick={() => handleQuickDemo('shanawazh203@gmail.com', 'Password123!')}
             >
               <UserCheck size={14} color="#10b981" /> Customer Demo
             </button>

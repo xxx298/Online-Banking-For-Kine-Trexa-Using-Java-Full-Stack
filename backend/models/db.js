@@ -131,7 +131,7 @@ async function initDB() {
           // Insert Users
           const johnRes = await db.runCmd(
             `INSERT INTO users (full_name, email, password_hash, transaction_pin, role, status) VALUES (?, ?, ?, ?, ?, ?)`,
-            ['John Doe', 'john@bank.com', customerPassword, pinHash, 'customer', 'active']
+            ['Shanawaz', 'shanawazh203@gmail.com', customerPassword, pinHash, 'customer', 'active']
           );
 
           const sarahRes = await db.runCmd(
@@ -141,7 +141,7 @@ async function initDB() {
 
           const adminRes = await db.runCmd(
             `INSERT INTO users (full_name, email, password_hash, transaction_pin, role, status) VALUES (?, ?, ?, ?, ?, ?)`,
-            ['System Admin', 'admin@bank.com', adminPassword, pinHash, 'admin', 'active']
+            ['Shanawaz Admin', 'admin@bank.com', adminPassword, pinHash, 'admin', 'active']
           );
 
           // Insert Accounts
